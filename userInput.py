@@ -1,2 +1,7 @@
-name = input("Enter your name: ")
-print(name)
+import math
+diameter = float(input("Enter your Circle Diameter: "))
+
+radius = diameter / 2
+area = math.pi* radius ** 2
+print("Radius:", radius)
+print("Circle Area:", area)
