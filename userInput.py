@@ -1,5 +1,5 @@
 import math
-diameter = float(input("Enter your Circle Diameter: "))
+diameter = int(input("Enter your Circle Diameter: "))
 
 radius = diameter / 2
 area = math.pi* radius ** 2
